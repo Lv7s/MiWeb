@@ -20,3 +20,4 @@ print("FORWARD es:" + " " + FORWARD_GIBSON)
 print(f'{"NUMERO DE BASES es:"}{" "}{lenght_FWD_GIB}')
 print("REVERSE es:" + " " + REVERSE_GIBSON)
 print(f'{"NUMERO DE BASES es:"}{" "}{lenght_REV_GIB}')
+prueba rama
