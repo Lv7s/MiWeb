@@ -7,4 +7,8 @@ MolecularWeight= 58.44
 VolumenLitros= 0.25
 MolaridadMoles= 0.3
 Pesoengramos= MolecularWeight*VolumenLitros*MolaridadMoles
+<<<<<<< HEAD
 print(f'{"Tienes que pesar "}{Pesoengramos}{" "}{"gramos"}{" "}{"en"}{" "}{VolumenLitros}{"Litros"}{" "}{"para tenerlo a"}{" "}{MolaridadMoles}{"Moles"}')
+=======
+print(f'{"Tienes que pesar "}{Pesoengramos}{" "}{"gramos"}{" "}{"en"}{" "}{VolumenLitros}{"Litros"}{" "}{"para tenerlo a"}{" "}{MolaridadMoles}{"Moles"}')
+>>>>>>> Worckbranch
