@@ -20,6 +20,7 @@ if Buffer == "HEPES":
     MgClgr= MGCL2HEXAHIDRATO*Volumen*MgCl
     Glicerol = float(input("la cantidad en mL que deseas de glicerol: "))
     Glicerolgr = Glicerol*1.26
+    print(f'{"Para: "}{Volumen}{" "}{"Litros de HEPES"}')
     print(f'{"Tienes que pesar: "}{Hepesgr}{" "}{"gramos de Hepes"}')
     print(f'{"Tienes que pesar: "}{NaClgr}{" "}{"gramos de NaCl"}')
     print(f'{"Tienes que pesar: "}{MgClgr}{" "}{"gramos de MgCl Hexahidro"}')
@@ -34,6 +35,7 @@ if Buffer == "TRIS":
     MgClgr= MGCL2HEXAHIDRATO*Volumen*MgCl
     Glicerol = float(input("la cantidad en mL que deseas de glicerol: "))
     Glicerolgr = Glicerol*1.26
+    print(f'{"Para: "}{Volumen}{" "}{"Litros de TRIS"}')
     print(f'{"Tienes que pesar: "}{Trisgr}{" "}{"gramos de TRIS"}')
     print(f'{"Tienes que pesar: "}{NaClgr}{" "}{"gramos de NaCl"}')
     print(f'{"Tienes que pesar: "}{MgClgr}{" "}{"gramos de MgCl Hexahidro"}')
