@@ -8,7 +8,7 @@ MolecularWeight= 58.44
 VolumenLitros= 0.25
 MolaridadMoles= 0.3
 Pesoengramos= MolecularWeight*VolumenLitros*MolaridadMoles
-print(f'{"Tienes que pesar "}{Pesoengramos}{" "}{"gramos"}{" "}{"en"}{" "}{VolumenLitros}{"Litros"}{" "}{"para tenerlo a"}{" "}{MolaridadMoles}{"Moles"}')
+#print(f'{"Tienes que pesar "}{Pesoengramos}{" "}{"gramos"}{" "}{"en"}{" "}{VolumenLitros}{"Litros"}{" "}{"para tenerlo a"}{" "}{MolaridadMoles}{"Moles"}')
 Buffer = (input("¿Que buffer deseas preparar?: "))
 if Buffer == "HEPES":
     Volumen = float(input("Introduce el volumen en L que deseas de Hepes: "))
