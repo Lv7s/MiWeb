@@ -18,10 +18,10 @@ if Metodo== "AUTOMATICO":
         Glicerol = float(input("la cantidad en mL que deseas de glicerol: "))
         Glicerolgr = Glicerol*1.26
         print(f'{"Para: "}{Volumen}{" "}{"Litros de HEPES"}')
-        print(f'{"Tienes que pesar: "}{Hepesgr}{" "}{"gramos de Hepes"}')
-        print(f'{"Tienes que pesar: "}{NaClgr}{" "}{"gramos de NaCl"}')
-        print(f'{"Tienes que pesar: "}{MgClgr}{" "}{"gramos de MgCl Hexahidro"}')
-        print(f'{"Tienes que pesar: "}{Glicerolgr}{" "}{"gramos de glicerol"}')
+        print(f'{"Tienes que pesar: "}{round(Hepesgr,2)}{" "}{"gramos de Hepes"}')
+        print(f'{"Tienes que pesar: "}{round(NaClgr,2)}{" "}{"gramos de NaCl"}')
+        print(f'{"Tienes que pesar: "}{round(MgClgr,2)}{" "}{"gramos de MgCl Hexahidro"}')
+        print(f'{"Tienes que pesar: "}{round(Glicerolgr)}{" "}{"gramos de glicerol"}')
     if Buffer == "TRIS":
         Volumen = float(input("Introduce el volumen en L que deseas de TRIS: "))
         Tris = float(input("Introduce la concentración en M de TRIS: "))
@@ -33,15 +33,15 @@ if Metodo== "AUTOMATICO":
         Glicerol = float(input("la cantidad en mL que deseas de glicerol: "))
         Glicerolgr = Glicerol*1.26
         print(f'{"Para: "}{Volumen}{" "}{"Litros de TRIS"}')
-        print(f'{"Tienes que pesar: "}{Trisgr}{" "}{"gramos de TRIS"}')
-        print(f'{"Tienes que pesar: "}{NaClgr}{" "}{"gramos de NaCl"}')
-        print(f'{"Tienes que pesar: "}{MgClgr}{" "}{"gramos de MgCl Hexahidro"}')
-        print(f'{"Tienes que pesar: "}{Glicerolgr}{" "}{"gramos de glicerol"}')
+        print(f'{"Tienes que pesar: "}{round(Trisgr,2)}{" "}{"gramos de TRIS"}')
+        print(f'{"Tienes que pesar: "}{round(NaClgr)}{" "}{"gramos de NaCl"}')
+        print(f'{"Tienes que pesar: "}{round(MgClgr,2)}{" "}{"gramos de MgCl Hexahidro"}')
+        print(f'{"Tienes que pesar: "}{round(Glicerolgr,2)}{" "}{"gramos de glicerol"}')
 if Metodo== "MANUAL":
     MolecularWeight= float(input("Introduce el peso molecular: "))	
     VolumenLitros= float(input("Introduce el volumen en L que deseas: "))
     MolaridadMoles= float(input("Introduce la molaridad a la que deseas (en Moles): "))
     Pesoengramos= MolecularWeight*VolumenLitros*MolaridadMoles
-    print(f'{"Tienes que pesar "}{Pesoengramos}{" "}{"gramos"}{" "}{"en"}{" "}{VolumenLitros}{"Litros"}{" "}{"para tenerlo a"}{" "}{MolaridadMoles}{"Moles"}')
+    print(f'{"Tienes que pesar "}{round(Pesoengramos,2)}{" "}{"gramos"}{" "}{"en"}{" "}{VolumenLitros}{"Litros"}{" "}{"para tenerlo a"}{" "}{MolaridadMoles}{"Moles"}')
 
     
